@@ -16,6 +16,19 @@
   </head>
 
 <body>
+  <div class="container">
+    <input type="color" name="color" value="" id="color">
+
+  </div>
+<script>
+  const Color=document.getElementById('color')
+
+  Color.addEventListener("input" , ()=> {
+//console.log(Color.value);
+document.body.style.background=Color.value;
+  })
+</script>
+
 <main>
   <div class="imagen">
 
