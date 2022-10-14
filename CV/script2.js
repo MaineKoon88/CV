@@ -1,6 +1,6 @@
-const addBtn = document.querySelector(".add1");
+const add2Btn = document.querySelector(".add2");
 
-const input = document.querySelector(".group");
+const input = document.querySelector(".inp-group2");
 
 
 function removeInput(){
@@ -33,4 +33,4 @@ function addInput() {
 
 
 
-addBtn.addEventListener("click", addInput);
+add2Btn.addEventListener("click", add2Input);

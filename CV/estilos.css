@@ -59,7 +59,7 @@ span {
 
 
 body {
-  width: 600px;
+  width: 800px;
   margin:0 auto;
 
 
@@ -74,6 +74,9 @@ li{
   color: black;
 }
 
+input{
+  caret-color:  #ff4d00 ;
+}
 
 
 
@@ -109,7 +112,7 @@ main {
   margin-bottom: 5px;
   cursor: pointer;
 }
-.add1{
+.add2{
   text-decoration: none;
   display: inline-block;
   width: 30px;

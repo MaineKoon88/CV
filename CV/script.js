@@ -12,6 +12,7 @@ function addInput() {
   name.type="text";
   name.placeholder = "Agregar Título";
 
+
   const est = document.createElement("input");
   est.type="Establecimiento";
   est.placeholder = "Agregar establecimiento";
